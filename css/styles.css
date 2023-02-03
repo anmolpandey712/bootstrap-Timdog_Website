@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.title-text {
+  font-size: 38px;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title {    
+  height: 720px;
+}
+
+.container-fluid,
+.container-fluid1 {
+  padding: 3% 15%;
+}
+
+.container-fluid1 {
+  padding-left: 0;
+}
+
+.mobile_img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  margin-right: 0%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  margin-right: 3%;
+
+}
+.navbar-nav{
+  text-align: right;
+}
+
+.nav-link {
+  font-family: "montserrat-light";
+  font-size: 1.2rem;
+  
+}
+.navbar-options{
+  position: relative;
+  left: 450px;
+}
+
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+/* Feature Section */
+
+#features {
+  padding: 9% 19%;
+  
+  position: relative;
+  z-index: 1;
+}
+
+.feature-div {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  text-align: center;
+  font-family: "Montserrat-bold";
+  color: #8f8f8f;
+}
+
+.feature-logo {
+  margin-bottom: 12px;
+  color: #ef8172;
+}
+
+.feature-logo:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 9% 19%;
+  color: #fff;
+}
+h2 {
+  
+  line-height: 1.5;
+  font-size: 42px;
+}
+.testimonials-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 9% 19%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Changes for IPad and Mobile View */
+@media(max-width: 1028px)
+{
+  .mobile_img{
+    position: static;
+    transform: rotate(0);
+  }
+  .title-text{
+    text-align: center;
+  }
+}
+
+/* CTA Section */
+#cta{
+  
+  text-align: center;
+  padding: 9% 19%;
+}
+.cta-header{
+ 
+  font-size: 50px;
+  font-weight: 700px;
+  
+}
+
+
+/* Footer Section */
+#footer{
+  
+  text-align: center;
+  padding: 7%;
+}
+.footer-logo{
+  padding: .4%;
+}
